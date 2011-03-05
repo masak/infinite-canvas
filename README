@@ -3,8 +3,8 @@ public use and tinkering.
 
 $ ./make-presentation
 
-Some CPAN modules are required, as well as Inkscape. If you're on a Mac,
-you'll have to do something about the hard-coded Inkscape path at the end
+Some CPAN modules are required, as well as Inkscape and pdftk. If you're on a
+Mac, you'll have to do something about the hard-coded Inkscape path at the end
 of the script.
 
 The slides-making script is licensed under the Artistic License 2.0:
