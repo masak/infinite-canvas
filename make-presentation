@@ -102,3 +102,6 @@ system
     . "--without-gui --file=$gs_dir/slide$_.svg "
     . "--export-pdf=$gs_dir/slide$_.pdf 2> /dev/null"
         for map { sprintf '%03d', $_ } 1..$slide_number;
+
+unlink 'talk.pdf';
+system 'pdftk generated-slides/*.pdf cat output talk.pdf'

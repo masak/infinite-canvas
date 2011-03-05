@@ -2,9 +2,8 @@ BooK was happy to see the presentation software I used, so here it is for
 public use and tinkering.
 
 $ ./make-presentation
-$ ./glue-together
 
-Some CPAN modules as well as Inkscape are required. If you're on a Mac,
+Some CPAN modules are required, as well as Inkscape. If you're on a Mac,
 you'll have to do something about the hard-coded Inkscape path at the end
 of the script.
 
