@@ -1,0 +1,2 @@
+rm -f talk.pdf
+pdftk generated-slides/*.pdf cat output talk.pdf
